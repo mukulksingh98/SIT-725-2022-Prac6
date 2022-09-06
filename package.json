@@ -1,0 +1,34 @@
+{
+  "name": "practicalweek5",
+  "version": "1.0.0",
+  "description": "Week 5 Practical",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test" : "mocha --reporter spec "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abatool-abatool/Practical_five_testing.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Amna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abatool-abatool/Practical_five_testing/issues"
+  },
+  "homepage": "https://github.com/abatool-abatool/Practical_five_testing#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mocha": "^10.0.0",
+    "mongodb": "^4.8.1",
+    "request": "^2.88.2"
+  }
+}
+
+
