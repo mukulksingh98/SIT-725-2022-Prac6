@@ -9,4 +9,16 @@ describe("Add Two Numbers", function(){
             done();
         })
     });
+    it("Checks Addition functionality", function(done){
+        request(url, function(err, res, body){
+            expect(res.statusCode).to.equal(500);
+            done();
+        })
+    });
+    it("checks database connection", function(done){
+        request(url, function(err, res, body){
+            expect(res.statusCode).to.equal(500);
+            done();
+        })
+    });
 });
